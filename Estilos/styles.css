@@ -11,7 +11,6 @@ body{
     padding: 0;
 }
 
-
 /* INICIO */
 nav {
     display: flex;               
@@ -23,16 +22,16 @@ nav {
     font-size: 14px;      
 }
 
-    .logo img {
-        height:100%;               
-        width: auto;              
-    }
+.logo img {
+    height:100%;               
+    width: auto;              
+}
 
-    nav ul {
-        list-style-type: none; 
-        display: flex;              
-        gap: 15px; /* Espaciado entre elementos */
-    }
+nav ul {
+    list-style-type: none; 
+    display: flex;              
+    gap: 15px; /* Espaciado entre elementos */
+}
 
 
 nav ul li a {
@@ -54,22 +53,21 @@ nav ul li a:hover {
     height: 500px; /* Ajusta la altura*/
 }
 
-    .main-content {
-        font-size: 25px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        height: 100%;
-        padding-left: 30px;
-        color: white;
-        text-shadow: 1px 1px 2px orange;
-    }
-    
+.main-content {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    padding-left: 30px;
+    color: white;
+    text-shadow: 1px 1px 2px orange;
+}
+
 .titulo h2, .subtitulo h3 {
     margin: 10px 0; 
 }
-    
 
 footer {
     color: #212529;
@@ -95,8 +93,6 @@ footer .redes a {
     text-decoration: none;
     font-size: 20px;
 }
-
-
 
 /*SERVICIOS*/
 .servicios{
@@ -178,21 +174,21 @@ text-shadow: 1px 1px 2px black;
     }
 
     .quienes-somos .item2{
-        background-image: url('../Multimedia/img1.jpg'); /* Ruta de tu imagen */
-        background-size: cover; /* Asegura que cubra todo el contenedor */
-        background-position: center; /* Centra la imagen */
+        background-image: url('../Multimedia/img1.jpg'); 
+        background-size: cover; 
+        background-position: center; 
         background-repeat: no-repeat; /* Evita que la imagen se repita */
-        width: 100%; /* Ajusta el ancho */
-        height: 100%; /* Ajusta el alto */
+        width: 100%; 
+        height: 100%; 
     }
 
     .quienes-somos .item3{
-        background-image: url('../Multimedia/img3.jpg'); /* Ruta de tu imagen */
-        background-size: cover; /* Asegura que cubra todo el contenedor */
-        background-position: center; /* Centra la imagen */
-        background-repeat: no-repeat; /* Evita que la imagen se repita */
-        width: 100%; /* Ajusta el ancho */
-        height: 100%; /* Ajusta el alto */
+        background-image: url('../Multimedia/img3.jpg'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        width: 100%; 
+        height: 100%; 
     }
 
     .quienes-somos .item4{
@@ -281,7 +277,7 @@ text-shadow: 1px 1px 2px black;
 
 .container-form textarea{
     width: 100%; /* Se ajusta al ancho del contenedor */
-    max-width: none; /* Evita límites fijos */
+    max-width: none; /* Evitar que los límites sean fijos */
     height: auto; /* Ajusta automáticamente la altura */
 }
 
