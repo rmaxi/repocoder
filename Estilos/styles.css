@@ -297,7 +297,7 @@ text-shadow: 1px 1px 2px black;
     background: #e39403;
 }
 
-/*MEDIA QUERY*/
+/* MEDIA QUERY */
 @media (max-width: 479px) {
     nav ul {
         flex-direction: column;
@@ -348,7 +348,7 @@ text-shadow: 1px 1px 2px black;
     }
 }
 
-/* Tablets*/
+/* Tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
     nav ul {
         gap: 30px;
