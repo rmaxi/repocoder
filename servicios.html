@@ -5,53 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Estilos/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <title>DR - Servicios</title>
 </head>
 <body>
-    <header>
-    <nav>
-        <div class="logo">
-            <i class="fa-duotone fa-solid fa-layer-group fa-2xl" style="--fa-primary-color: #1e5ac2; --fa-secondary-color: #0f3070;"></i>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+        <a class="navbar-brand">
+            <img src="Multimedia/r.png" alt="Logo" class="logo-navbar">    
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="quienes-somos.html">Quienes Somos</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="trabajo.html">Trabaja con Nostros</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="https://servicioscf.afip.gob.ar/publico/sitio/contenido/novedad/listado.aspx">Novedades ARCA</a>
+                </li>
+                
+            </ul>
+            </div>
         </div>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="servicios.html">Servicios</a></li>
-            <li><a href="quienes-somos.html">Quienes somos</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a href="https://servicioscf.afip.gob.ar/publico/sitio/contenido/novedad/listado.aspx">Novedades AFIP</a></li>
-        </ul>
+        </div>
     </nav>
-    </header>
         <section class="servicios">
             <div class="item item1">
-                <h3>Impuestos</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio est magni assumenda sunt, officiis incidunt? Deserunt expedita ratione iste veritatis incidunt molestias tempore dicta impedit libero, eum omnis aperiam cum?.</p>
+                <h2>Impuestos</h2>
+                <p>Asesoramos a personas y empresas en la correcta planificación y presentación de declaraciones fiscales. Optimiza tu carga tributaria con estrategias personalizadas y asegúrate de cumplir con todas las normativas vigentes.</p>
             </div>
             <div class="item item2">
-                <h3>Contabilidad</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum modi ipsa ullam ducimus vitae explicabo? Dolor vero ipsa officiis architecto perspiciatis tempore sapiente odio nisi, id alias natus provident rerum!.</p>
+                <h2>Contabilidad</h2>
+                <p>Ofrecemos servicios contables integrales, desde la organización de tus libros hasta la generación de informes financieros precisos. Nos enfocamos en brindarte claridad y control sobre tus finanzas.</p>
             </div>
             <div class="item item3">
-                <h3>Sueldos</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur laudantium repellendus praesentium? Voluptatem cupiditate autem et, saepe sapiente qui repudiandae praesentium animi earum molestias hic quam quis facere consequuntur excepturi?.</p>
+                <h2>Sueldos</h2>
+                <p>Administramos el cálculo, liquidación y cumplimiento de obligaciones laborales. Asegura la tranquilidad de tu equipo con una gestión de sueldos transparente y puntual.</p>
             </div>
             <div class="item item4">
-                <h3>Certificaciones</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique reprehenderit quod, architecto, cupiditate maxime saepe dolorem fuga perspiciatis voluptatum dolorum modi alias autem officiis vel ipsum soluta? In, nostrum..</p>
+                <h2>Certificaciones</h2>
+                <p>Emitimos certificaciones contables y financieras confiables, indispensables para procesos administrativos, licitaciones o auditorías. Nuestro equipo asegura que los documentos cumplan con los estándares requeridos.</p>
             </div>
             <div class="item item5">
-                <h3>Inscripciones</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa quae voluptates, necessitatibus soluta veritatis deleniti fugiat inventore unde ipsum debitis veniam excepturi dicta quibusdam dolor quo distinctio, autem iusto aperiam..</p>
+                <h2>Inscripciones</h2>
+                <p>Facilitamos la inscripción de empresas y autónomos en los diferentes organismos públicos. Desde el inicio de tu actividad hasta actualizaciones legales, estamos contigo en cada paso.</p>
             </div>
             <div class="item item6">
-                <h3>Jubilaciones y Pesniones</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla perferendis beatae tenetur dignissimos eaque voluptatum, delectus quibusdam impedit nihil corrupti sed repudiandae laborum, blanditiis debitis sunt exercitationem architecto quia cumque..</p>
+                <h2>Jubilaciones y Pesniones</h2>
+                <p>Te acompañamos en la gestión de trámites jubilatorios y pensiones, asegurando que recibas los beneficios que te corresponden. Contamos con amplia experiencia en normativa previsional.</p>
             </div>
         </section>
     <footer>
@@ -69,5 +94,4 @@
         </div>
     </footer>
 </body>
-
 </html>
