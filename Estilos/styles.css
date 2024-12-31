@@ -8,6 +8,7 @@
 
     html, body {
         height: 100%; 
+        overflow-x: hidden;
     }
 
     body {
@@ -31,6 +32,10 @@
         font-size: 14px;
     }
 
+    .container-fluid {
+        max-width: 100%;
+        padding: 0 15px; 
+    }
     .inicio {
         background-image: url("../Multimedia/f3.jpg");
         background-size: cover;
